@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#airline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#airline"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#benefit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#benefit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#employee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#crew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#crew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#reviews"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer_service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer_service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#emotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#emotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#reviews"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#employee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#employee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#reviews"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#luggage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#luggage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#reviews -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#reviews">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#airline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#schedule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#seat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#seat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#senior_leadership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#senior_leadership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#employee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#work_life_balance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#work_life_balance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#employee"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#cancelled -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#cancelled">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#delayed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#delayed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#late -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#late">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#lost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#lost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jooyeonjamielee/ontologies/2019/2/untitled-ontology-6#luggage"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
