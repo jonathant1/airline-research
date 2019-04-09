@@ -1,0 +1,12 @@
+,tweet_id,airline_sentiment,airline_sentiment_confidence,negativereason,negativereason_confidence,airline,airline_sentiment_gold,name,negativereason_gold,retweet_count,text,tweet_coord,tweet_created,tweet_location,user_timezone
+0,570306133677760513,neutral,1.0,,,Virgin America,,cairdin,,0,@VirginAmerica What @dhepburn said.,,2015-02-24 11:35:52 -0800,,Eastern Time (US & Canada)
+1,570301130888122368,positive,0.3486,,0.0,Virgin America,,jnardino,,0,@VirginAmerica plus you've added commercials to the experience... tacky.,,2015-02-24 11:15:59 -0800,,Pacific Time (US & Canada)
+2,570301083672813571,neutral,0.6837,,,Virgin America,,yvonnalynn,,0,@VirginAmerica I didn't today... Must mean I need to take another trip!,,2015-02-24 11:15:48 -0800,Lets Play,Central Time (US & Canada)
+3,570301031407624196,negative,1.0,Bad Flight,0.7033,Virgin America,,jnardino,,0,"@VirginAmerica it's really aggressive to blast obnoxious ""entertainment"" in your guests' faces &amp; they have little recourse",,2015-02-24 11:15:36 -0800,,Pacific Time (US & Canada)
+4,570300817074462722,negative,1.0,Can't Tell,1.0,Virgin America,,jnardino,,0,@VirginAmerica and it's a really big bad thing about it,,2015-02-24 11:14:45 -0800,,Pacific Time (US & Canada)
+5,570300767074181121,negative,1.0,Can't Tell,0.6842,Virgin America,,jnardino,,0,"@VirginAmerica seriously would pay $30 a flight for seats that didn't have this playing.
+it's really the only bad thing about flying VA",,2015-02-24 11:14:33 -0800,,Pacific Time (US & Canada)
+6,570300616901320704,positive,0.6745,,0.0,Virgin America,,cjmcginnis,,0,"@VirginAmerica yes, nearly every time I fly VX this “ear worm” won’t go away :)",,2015-02-24 11:13:57 -0800,San Francisco CA,Pacific Time (US & Canada)
+7,570300248553349120,neutral,0.634,,,Virgin America,,pilot,,0,"@VirginAmerica Really missed a prime opportunity for Men Without Hats parody, there. https://t.co/mWpG7grEZP",,2015-02-24 11:12:29 -0800,Los Angeles,Pacific Time (US & Canada)
+8,570299953286942721,positive,0.6559,,,Virgin America,,dhepburn,,0,"@virginamerica Well, I didn't…but NOW I DO! :-D",,2015-02-24 11:11:19 -0800,San Diego,Pacific Time (US & Canada)
+9,570295459631263746,positive,1.0,,,Virgin America,,YupitsTate,,0,"@VirginAmerica it was amazing, and arrived an hour early. You're too good to me.",,2015-02-24 10:53:27 -0800,Los Angeles,Eastern Time (US & Canada)
