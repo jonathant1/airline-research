@@ -1,6 +1,8 @@
-Customer review
-Employee review
+'dataset/customer_skytrax_sample.csv'
+'dataset/tweet_sample.csv'
 sample output after categorizing each review/tweet
+
+negativereason and negativereason_confidence are filled randomly. 
 
 Negative Reasons:
 
