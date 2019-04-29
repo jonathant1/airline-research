@@ -7,14 +7,14 @@ negativereason and negativereason_confidence are filled randomly.
 
 Negative Reasons:
 
-Damaged Luggage
-Lost Luggage
-Flight Booking Problems
-Flight Attendant Complaints
-longlines
-Can't Tell
-Bad Flight
-Cancelled Flight
-Late Flight
-Customer Service Issue
-General
+1. Damaged Luggage -- done
+2. Lost Luggage -- done
+3. Booking Problems -- done
+4. Flight Attendant Complaints -- done
+5. longlines -- done
+6. General -- done
+7. Bad Flight
+8. Cancelled Flight -- done
+9. Delayed Flight -- done
+10. Customer Service Issue
+11. food -- done
