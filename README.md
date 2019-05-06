@@ -63,9 +63,9 @@ col 3. Review
 *********************************************************************
 *********************************************************************
 **sample_reviews_tweets.csv**  
-* col 1. airline name   
-* col 2. Category  
-* col 3. Review  
+col 1. airline name   
+col 2. Category  
+col 3. Review  
 
 
 
